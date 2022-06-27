@@ -179,4 +179,4 @@ class TicTacToe {
 
 const sudoku = new TicTacToe();
 
-document.querySelector( '#wrapper' ).append( sudoku.getHTML( 630 ) );
+document.querySelector( '#wrapper' ).append( sudoku.getHTML( 612 ) );
