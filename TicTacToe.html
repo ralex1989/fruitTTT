@@ -8,9 +8,7 @@
       <script language="javascript">
       VK.init({
         apiId: 5087365
-      });
-         
-      VK.callMethod("showInviteBox");
+      });       
     </script>
    </head>
    <body>
@@ -32,6 +30,6 @@
          </div>        
       </div>
       <!-- <script src = "mw.js"></script> -->
-      <button class="custom-btn btn-3"><span>Пригласить друзей</span></button>
+      <button class="custom-btn btn-3" onclick='VK.callMethod("showInviteBox")'><span>Пригласить друзей</span></button>
    </body>
 </html>
